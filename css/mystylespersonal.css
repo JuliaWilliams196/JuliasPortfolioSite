@@ -8,13 +8,19 @@ div {
 }
 /****HEADER SECTION****/
 .top-container {
-  background-color: #c0cad2;
-  position: relative;
+  background-image: url("../img/mountain-clouds.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 745px;
+  width: 100%;
   padding-top: 20px;
 }
 nav {
-  float: right;
-  padding: 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 0px;
 }
 nav ul li {
   display: inline-block;
@@ -44,21 +50,6 @@ h1 {
   margin: 0;
   font-weight: bold;
   color: #984a59;
-}
-.mountain {
-  margin: auto;
-}
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-  color: #ffff;
-}
-.top-cloud {
-  position: absolute;
-  right: 250px;
-  bottom: 450px;
-  color: #ffff;
 }
 
 /****MAIN SECTION****/
@@ -104,14 +95,6 @@ ul {
 li {
   font-weight: bold;
   line-height: 3;
-}
-.css-icon {
-  width: 25%;
-  float: left;
-}
-.python {
-  width: 25%;
-  float: right;
 }
 .skill-row {
   display: block;
