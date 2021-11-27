@@ -1,3 +1,4 @@
+/***MOBILE FIRST DESIGN***/
 /****BODY****/
 body {
   text-align: center;
@@ -8,30 +9,35 @@ div {
 }
 /****HEADER SECTION****/
 .top-container {
-  background-color: #c0cad2;
-  position: relative;
+  background-image: url("../img/mountain-clouds.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 745px;
+  width: 100%;
   padding-top: 20px;
 }
 nav {
-  float: right;
-  padding: 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-nav ul li {
-  display: inline-block;
+nav li {
+  padding: 0 5px;
 }
 nav ul li a {
-  text-align: right;
+  display: flex;
   font-family: "Source Sans Pro";
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
   color: #999999;
-  padding-left: 80px;
 }
 h1 {
-  text-align: center;
+  display: block;
+  justify-content: center;
   padding-top: 80px;
-  margin-bottom: 0;
+  margin-bottom: auto;
   font-family: "Sacramento";
   font-size: 4.37rem;
   font-weight: lighter;
@@ -45,25 +51,14 @@ h1 {
   font-weight: bold;
   color: #984a59;
 }
-.mountain {
-  margin: auto;
-}
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-  color: #ffff;
-}
-.top-cloud {
-  position: absolute;
-  right: 250px;
-  bottom: 450px;
-  color: #ffff;
-}
 
 /****MAIN SECTION****/
 /****h2 in this section is My Skills heading****/
-.middle-container {
+main {
+  background-color: #edb97f;
+}
+.first-container {
+  text-align: center;
   background-color: #edb97f;
   overflow: auto;
 }
@@ -74,14 +69,14 @@ h1 {
 }
 h2 {
   font-family: "Amatic SC";
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #984a59;
   text-align: center;
   margin: 0;
   padding-top: 20px;
 }
 .skill {
-  font-family: "Montserrat";
+  font-family: "Shippori Antique",sans-serif;
   font-style: italic;
   color: #984a59;
   font-weight: bold;
@@ -92,12 +87,12 @@ h2 {
 }
 ul {
   margin: 0;
-  font-family: "Montserrat";
+  font-family: "Shippori Antique",sans-serif;
   font-style: italic;
   color: #984a59;
   font-size: 20px;
   margin: 0;
-  padding-top: 20px;
+  padding: 20px 0 20px 0;
   list-style-type: none;
   font-weight: bold;
 }
@@ -105,37 +100,32 @@ li {
   font-weight: bold;
   line-height: 3;
 }
-.css-icon {
-  width: 25%;
-  float: left;
-}
-.python {
-  width: 25%;
-  float: right;
-}
 .skill-row {
-  display: block;
+  display: inline;
   margin: auto;
   line-height: 2;
   width: 50%;
   text-align: left;
 }
 #intro {
-  font-family: "Montserrat";
+  font-family: "Shippori Antique",sans-serif;
+  display: inline;
   width: 40%;
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 20px;
-  font-style: italic;
   line-height: 2;
 }
 .hello {
   color: #984a59;
 }
 /****FOOTER SECTION****/
+footer{
+  background-color: #984a59;
+}
 .bottom-container {
-  clear: both;
+  display: inline-grid;
   background-color: #984a59;
   padding: 100px auto 0;
   text-align: center;
@@ -145,7 +135,7 @@ li {
   padding-top: 100px;
 }
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Shippori Antique",sans-serif;
   color: #984a59;
   font-weight: bolder;
   margin: auto;
@@ -195,3 +185,165 @@ a:hover {
 }
 
 /****END****/
+/****BODY MY RESUME PAGE****/
+body {
+  background-color: #c0cad2;
+  text-align: center;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: #999999;
+
+}
+.first-link:hover {
+  color: #dd7450;
+}
+.second-link:hover {
+  color: #dd7450;
+}
+.third-link:hover {
+  color: #dd7450;
+}
+h1 {
+  text-align: center;
+  padding-top: 130px;
+  margin: 0;
+  font-family: "Sacramento";
+  font-size: 4.37rem;
+  font-weight: lighter;
+  color: #dd7450;
+}
+.heading {
+  font-family: "Amatic SC";
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  color: #984a59;
+}
+/****BODY OF MY PROJECTS PAGE****/
+body {
+  background-color: #c0cad2;
+  text-align: center;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: #999999;
+}
+h1 {
+  text-align: center;
+  padding-top: 130px;
+  margin: 0;
+  font-family: "Sacramento";
+  font-size: 4.37rem;
+  font-weight: lighter;
+  color: #dd7450;
+}
+.heading {
+  font-family: "Amatic SC";
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+  color: #984a59;
+}
+p {
+  font-family: "Montserrat";
+  font-style: italic;
+  color: #984a59;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  line-height: 2;
+}
+/****END OF MY PROJECTS PAGE****/
+/****SECTION OF MY RESUME PAGE****/
+main {
+  padding: 20px 0 20px 0;
+}
+input {
+  display: none;
+}
+section > div {
+  display: none;
+}
+label {
+  cursor: pointer;
+  font-family: "Source Sans Pro";
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 28px;
+  color: #999999;
+}
+div {
+  font-family: "Montserrat";
+  font-style: italic;
+  color: #984a59;
+  font-weight: bold;
+  font-size: 18px;
+  margin: auto;
+  width: 69%;
+  line-height: 2;
+}
+li {
+  list-style: none;
+}
+#radio-section-0:checked ~ #section-0 > div {
+  display: block;
+}
+#radio-section-1:checked ~ #section-1 > div {
+  display: block;
+}
+#radio-section-2:checked ~ #section-2 > div {
+  display: block;
+}
+#radio-section-3:checked ~ #section-3 > div {
+  display: block;
+}
+#radio-section-4:checked ~ #section-4 > div {
+  display: block;
+}
+.zero-label:hover {
+  color: #dd7450;
+}
+.first-label:hover {
+  color: #984a59;
+}
+.second-label:hover {
+  color: #dd7450;
+}
+.third-label:hover {
+  color: #984a59;
+}
+.fourth-label:hover {
+  color: #dd7450;
+}
+
+a:hover {
+  color: #984a59;
+}
+a {
+  color: #dd7450;
+  text-decoration: none;
+}
+/****END OF MY RESUME PAGE****/
