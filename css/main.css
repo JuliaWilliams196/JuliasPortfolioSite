@@ -75,6 +75,7 @@ main {
   text-align: center;
   padding: 100px auto 0;
   margin: 200px 0 380px 0;
+overflow: auto;
 }
 .avatar {
   width: 250px;
@@ -268,7 +269,5 @@ h3 {
 
 /***MEDIA QUERIES***/
 @media screen and (max-width: 768px){
-  body {
-    background-color: red;
-  }
+
 }
