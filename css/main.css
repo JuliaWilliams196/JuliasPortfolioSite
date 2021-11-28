@@ -7,6 +7,10 @@ body {
 div {
   margin: 0;
 }
+h3{
+  font-family: "Source Sans Pro",sans-serif;
+  text-transform: uppercase;
+}
 /****HEADER SECTION****/
 .top-container {
   background-image: url("../img/mountain-clouds.png");
@@ -54,7 +58,9 @@ h1 {
   font-weight: bold;
   color: #984a59;
 }
-
+.first-link:hover {
+  color: #dd7450;
+}
 /****MAIN SECTION****/
 /****h2 in this section is My Skills heading****/
 main {
@@ -64,6 +70,11 @@ main {
   text-align: center;
   background-color: #edb97f;
   overflow: auto;
+}
+.second-container {
+  text-align: center;
+  padding: 100px auto 0;
+  margin: 200px 0 380px 0;
 }
 .avatar {
   width: 250px;
@@ -94,16 +105,24 @@ li {
 }
 #intro {
   font-family: "Shippori Antique",sans-serif;
-  display: inline;
-  width: 69%;
+  display: block;
+  width: 80%;
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 20px;
-  line-height: 1;
+  line-height: 2;
 }
 .about {
   color: #984a59;
+}
+main a {
+  font-size: 38px;
+  font-weight: 900;
+}
+.link {
+  font-family: "Shippori Antique",sans-serif;
+font-size: 20px;
 }
 /****FOOTER SECTION****/
 footer{
@@ -171,6 +190,11 @@ a:hover {
   font-size: 30px;
   margin-bottom: 0;
 }
+#cant-wait {
+  font-family: "Source Sans Pro",sans-serif;
+  text-transform: uppercase;
+  color: #edb97f;
+}
 .github {
   padding: 40px 0;
 }
@@ -234,7 +258,7 @@ color: #984a59;
 font-weight: bolder;
 margin: auto;
 width: 30%;
-line-height: 2;
+font-size: 20px;
 }
 h3 {
   font-family: "Shippori Antique",sans-serif;
@@ -243,3 +267,8 @@ h3 {
 /***BODY OF MY PROJECTS***/
 
 /***MEDIA QUERIES***/
+@media screen and (max-width: 768px){
+  body {
+    background-color: red;
+  }
+}
