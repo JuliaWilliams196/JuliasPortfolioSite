@@ -7,8 +7,8 @@ body {
 div {
   margin: 0;
 }
-h3{
-  font-family: "Source Sans Pro",sans-serif;
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
 }
 /****HEADER SECTION****/
@@ -17,9 +17,11 @@ h3{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #edb97f;
   height: 745px;
   width: 100%;
   padding-top: 20px;
+  overflow: auto;
 }
 nav ul {
   display: inline-flex;
@@ -38,12 +40,12 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
-  color: #999999;
+  color: #7a7979;
 }
 h1 {
   display: block;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 60px;
   margin-bottom: auto;
   font-family: "Sacramento";
   font-size: 4.37rem;
@@ -58,27 +60,42 @@ h1 {
   font-weight: bold;
   color: #984a59;
 }
-.first-link:hover{
-  color: #dd7450;
+.first-link:hover {
+  color: #dd5050;
 }
-.second-link:hover{
+.second-link:hover {
   color: #984a59;
+}
+#intro {
+  font-family: "Shippori Antique", sans-serif;
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding: 30px 0 30px 0;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+}
+#project-intro {
+  font-family: "Shippori Antique", sans-serif;
+  display: block;
+  width: 80%;
+  margin: auto;
+  padding: 30px 0 30px 0;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
 }
 /****MAIN SECTION****/
 /****h2 in this section is My Skills heading****/
 main {
   background-color: #edb97f;
 }
-.first-container {
-  text-align: center;
-  background-color: #edb97f;
-  overflow: auto;
-}
 .second-container {
   text-align: center;
   padding: 100px auto 0;
   margin: 200px 0 380px 0;
-overflow: auto;
+  overflow: auto;
 }
 .avatar {
   width: 250px;
@@ -95,7 +112,7 @@ h2 {
 }
 main ul {
   margin: 0;
-  font-family: "Shippori Antique",sans-serif;
+  font-family: "Shippori Antique", sans-serif;
   color: #984a59;
   font-size: 20px;
   margin: 0;
@@ -107,16 +124,7 @@ li {
   font-weight: bold;
   line-height: 3;
 }
-#intro {
-  font-family: "Shippori Antique",sans-serif;
-  display: block;
-  width: 80%;
-  margin: auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 20px;
-  line-height: 2;
-}
+
 .about {
   color: #984a59;
 }
@@ -125,11 +133,11 @@ main a {
   font-weight: 900;
 }
 .link {
-  font-family: "Shippori Antique",sans-serif;
-font-size: 20px;
+  font-family: "Shippori Antique", sans-serif;
+  font-size: 20px;
 }
 /****FOOTER SECTION****/
-footer{
+footer {
   background-color: #984a59;
 }
 .bottom-container {
@@ -144,7 +152,7 @@ footer{
   padding-top: 100px;
 }
 p {
-  font-family: "Shippori Antique",sans-serif;
+  font-family: "Shippori Antique", sans-serif;
   color: #984a59;
   font-weight: bolder;
   margin: auto;
@@ -175,7 +183,7 @@ h4 {
 }
 
 .btn:hover {
-  background: #dd7450;
+  background: #dd5050;
   cursor: pointer;
 }
 a:hover {
@@ -195,7 +203,7 @@ a:hover {
   margin-bottom: 0;
 }
 #cant-wait {
-  font-family: "Source Sans Pro",sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   color: #edb97f;
 }
@@ -220,7 +228,7 @@ label {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 28px;
-  color: #999999;
+  color: #7a7979;
 }
 li {
   list-style: none;
@@ -235,44 +243,62 @@ li {
 }
 #section-2:checked ~ #section-2 > div {
   display: block;
-visibility: visible;
+  visibility: visible;
 }
 .zero-label:hover {
-  color: #dd7450;
+  color: #dd5050;
 }
 .first-label:hover {
   color: #984a59;
 }
 .second-label:hover {
-  color: #dd7450;
+  color: #dd5050;
 }
 a:hover {
   color: #984a59;
 }
 a {
-  font-family: "Amatic SC",sans-serif;
+  font-family: "Amatic SC", sans-serif;
   font-size: 30px;
   font-weight: bolder;
-  color: #dd7450;
+  color: #dd5050;
   text-decoration: none;
 }
 time {
-font-family: "Shippori Antique",sans-serif;
-color: #984a59;
-font-weight: bolder;
-margin: auto;
-width: 30%;
-font-size: 20px;
+  font-family: "Shippori Antique", sans-serif;
+  color: #984a59;
+  font-weight: bolder;
+  margin: auto;
+  width: 30%;
+  font-size: 20px;
 }
 h3 {
-  font-family: "Shippori Antique",sans-serif;
+  font-family: "Shippori Antique", sans-serif;
   color: #984a59;
 }
-
-/***MEDIA QUERIES***/
-@media screen and (min-width: 768px){
-nav {
-  float: right;
-  padding-right: 20px;
+.work {
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
 }
+/***MEDIA QUERIES***/
+@media screen and (min-width: 768px) {
+  nav {
+    float: right;
+    padding-right: 20px;
+  }
+  h1 {
+    padding-top: 150px;
+  }
+  #intro {
+    width: 70%;
+    text-align: justify;
+  }
+  .second-container {
+    margin: 30px 0 30px 0;
+  }
+  #work {
+justify-content: space-around;
+  }
 }
