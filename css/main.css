@@ -66,7 +66,7 @@ h1 {
 .second-link:hover {
   color: #984a59;
 }
-#intro {
+.intro {
   font-family: "Shippori Antique", sans-serif;
   display: block;
   width: 80%;
@@ -76,16 +76,7 @@ h1 {
   line-height: 2;
   text-align: center;
 }
-#project-intro {
-  font-family: "Shippori Antique", sans-serif;
-  display: block;
-  width: 80%;
-  margin: auto;
-  padding: 30px 0 30px 0;
-  font-size: 20px;
-  line-height: 2;
-  text-align: center;
-}
+
 /****MAIN SECTION****/
 /****h2 in this section is My Skills heading****/
 main {
@@ -278,9 +269,9 @@ h3 {
 }
 .work {
   display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
 }
 /***MEDIA QUERIES***/
 @media screen and (min-width: 768px) {
@@ -299,6 +290,6 @@ h3 {
     margin: 30px 0 30px 0;
   }
   #work {
-justify-content: space-around;
+    justify-content: space-around;
   }
 }
