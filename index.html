@@ -8,7 +8,7 @@
   <title>Julia Williams' Portfolio</title>
   <link rel="stylesheet" href="./css/normalize.css" />
   <link rel="stylesheet" href="./css/main.css" />
-  <link rel="icon" href="./img/avataaars (3).ico" />
+  <link rel="icon" href="./img/avataaars.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Sacramento&display=swap"
@@ -50,18 +50,22 @@
         I am a born and raised farm girl in southeastern Ontario, Canada.
         I live on my parent’s farm with my horse Zephyr, 30+ sheep, and my ball python, Wizzle!
         <br />
+        <br />
         I started learning to code in July of 2021.
-        I was looking into remote jobs as I wanted to transition out of my going nowhere retail job into something that
-        is challenging, rewarding and fun.
+        I was looking into remote jobs as I wanted to transition out of my going nowhere retail job
+        into something that is challenging, rewarding and fun.
+        <br />
         <br />
         I stumbled across coding and the coding bootcamp SheCodes.
         I completed the Introduction to Coding three week course on August 9th 2021.
-        I then purchased a couple of courses on Udemy and started those.
-        I just completed the Front End Developer track in Skillcrush’s Break Into Tech Program.
+        I then purchased a couple of courses on Udemy about Python and advanced web development
+        and started those.
+        I just completed the Front End Developer track in Skillcrush’s Break Into Tech Program,
+        and am looking to land a Front End Web Developer role.
         <br />
-        Three fun facts about me:
+        <br />
       </p>
-
+      <h2 class="heading">Three fun facts about me:</h2>
 
       <ul>
         <li>My favourite TV show is Parks & Recreation.</li>
@@ -72,6 +76,7 @@
       </ul>
     </div>
     <h2 id="skills">My Skills</h2>
+    <p class="projects-intro">Click each section below for more information</p>
     <div class="second-container">
       <input type="checkbox" name="section" id="section-0" unchecked />
       <input type="checkbox" name="section" id="section-1" unchecked />
@@ -81,15 +86,19 @@
           <label for="section-0" class="zero-label">Technical Skills</label>
         </h2>
         <div>
-          <ul>
-            <li>CodeSandbox</li>
-            <li>FTP & Web hosting</li>
-            <li>Git & Github</li>
-            <li>GIMP</li>
-            <li>Responsive Mobile First Design</li>
-            <li>Slack</li>
-            <li>Zoom</li>
-            <li>Phtoshop</li>
+          <ul class="flex-container">
+            <li class="flex-item">ChromeDevTools</li>
+            <li class="flex-item">CodeSandbox</li>
+            <li class="flex-item">FTP</li>
+            <li class="flex-item">Hosting</li>
+            <li class="flex-item">Git</li>
+            <li class="flex-item">Github</li>
+            <li class="flex-item">GIMP</li>
+            <li class="flex-item">REST APIs</li>
+            <li class="flex-item">Responsive Design</li>
+            <li class="flex-item">Slack</li>
+            <li class="flex-item">Windows Powershell</li>
+            <li class="flex-item">Zoom</li>
           </ul>
         </div>
       </section>
@@ -99,11 +108,11 @@
             Programming Languages</label>
         </h2>
         <div>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
-            <li>React</li>
+          <ul class="flex-container">
+            <li class="flex-item">HTML5</li>
+            <li class="flex-item">CSS3</li>
+            <li class="flex-item">Javascript</li>
+            <li class="flex-item">React</li>
           </ul>
         </div>
       </section>
@@ -113,95 +122,105 @@
         </h2>
         <div>
           <ul>
-            <h3>
-              Break Into Tech Program- <a class="link" href="https://skillcrush.com/" target="_blank">Skillcrush</a>
-            </h3>
-            <time>September 22nd - December 2021</time>
-            <h3>
-              <li>Introduction to Coding- <a class="link" href="https://www.shecodes.io/" target="_blank">SheCodes</a>
-              </li>
-            </h3>
-            <time> July 19th - August 9th 2021</time>
-            <h3><a class="link" href="https://www.shecodes.io/certificates/4c919dc81158d3c2ac9d8c349b239f53"
-                target="_blank">
-                MY VERIFIED CERTIFICATE
-              </a>
-            </h3>
-            <h3>
-              Diploma in Agriculture- <a class="link" href="https://www.ridgetownc.com/" target="_blank">University
-                of Guelph, Ridgetown Campus</a>
-            </h3>
-            <time>September 2014 - April 2016</time>
-            <br />
+            <li>
+              <h3>
+                Break Into Tech Program- <a class="link" href="https://skillcrush.com/" target="_blank">Skillcrush</a>
+              </h3>
+              <time>September 22nd - Present</time>
+            </li>
+            <li>
+              <h3>
+                Introduction to Coding- <a class="link" href="https://www.shecodes.io/" target="_blank">SheCodes</a>
+              </h3>
+              <time> July 19th - August 9th 2021</time>
+              <h3><a class="link" href="https://www.shecodes.io/certificates/4c919dc81158d3c2ac9d8c349b239f53"
+                  target="_blank">
+                  MY VERIFIED CERTIFICATE
+                </a>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                Diploma in Agriculture- <a class="link" href="https://www.ridgetownc.com/" target="_blank">University
+                  of Guelph, Ridgetown Campus</a>
+              </h3>
+              <time>September 2014 - April 2016</time>
+            </li>
           </ul>
         </div>
       </section>
+      <br />
     </div>
     <div class="third-container">
-      <section id="work">
-        <h2 id="projects">My Projects</h2>
-        <p class="intro">
-          These are the projects I have worked on so far!
-          <br />
-          These projects were created with HTML5, CSS3, JavaScript, and React.
-        </p>
+      <h2 id="projects">My Projects</h2>
+      <p class="projects-intro">
+        These are the projects I have worked on so far!
         <br />
-        <article>
-          <h3>Project: Colouring Page App</h3>
-          <img src="./img/flower-colouring-app.png" alt="flower-colouring-page" width="370" height="250" />
-          <br />
-          <a href="https://qvq1y.csb.app/" target="_blank">See the live app here</a>
-          <p class="intro">Description:<br />
-            I created this project for Mintbean.io's Hiring Hackathon in November of 2021.
-            This interactive page lets you select a colour,
-            and change the part of the flower to that colour when you click on it.
-            This was my first project using React! </p>
-        </article>
-        <article>
-          <br />
-          <h3>Project: Guess the Word Game</h3>
-          <img src="./img/guess-word.png" alt="word-game" width="370" height="250" />
-          <br />
-          <a href="https://juliawilliams196.github.io/guess-the-word/" target="_blank">See the live app here</a>
-          <p class="intro">Description:<br />
-            This app lets users play a word game similar to playing Hangman as kids.
-            You only have 8 guesses to get the word right! I used an API to fetch more than 800 words for this game.
-          </p>
-        </article>
-        <article>
-          <br />
-          <h3>Project: Unplugged Retreats Website</h3>
-          <img src="./img/unplugged.png" alt="website img" width="370" height="250" />
-          <br />
-          <a href="https://juliawilliams196.github.io/unplugged-project-2021/" target="_blank">See the live website
-            here</a>
-          <p class="intro">Description:<br />
-            This website uses responsive design to create a beautiful UI.
-            Media queries and breakpoints were added to allow a seamless user
-            experience whether they are viewing on a mobile, tablet or desktop device.</p>
-        </article>
-        <br />
-        <article>
-          <h3>Project: Name Tag Generator</h3>
-          <img src="./img/name-tag-generator.png" alt="name-tag" width="370" height="250" />
-          <br />
-          <a href="https://m1f2q.csb.app/" target="_blank">See the live app here</a>
-          <p class="intro">Description:<br />
-            This is an interactive app where the user can create and delete their own personal name tags.</p>
-        </article>
-        <br />
-        <article>
-          <h3>Project: Sticky Note App</h3>
-          <img src="./img/sticky-note-app.png" alt="sticky-note" width="370" height="250" />
-          <br />
-          <a href="https://lx81x.csb.app/" target="_blank">See the live app here</a>
-          <p class="intro">Description:<br />
-            Similar to the Name Tag Generator project,
-            this app allows the user to create, delete, and search
-            through their own personal sticky notes.</p>
-        </article>
-      </section>
+        These projects were created with HTML5, CSS3, JavaScript, and React.
+      </p>
       <br />
+      <div class="projects-container">
+        <section class="features">
+          <article class="features-items">
+            <h3>Project: Colouring Page App</h3>
+            <img src="./img/flower-colouring-app.png" alt="flower-colouring-page" />
+            <br />
+            <a href="https://qvq1y.csb.app/" target="_blank">See the live app here</a>
+            <p class="features-items-description">Description:<br />
+              I created this project for Mintbean.io's Hiring Hackathon in November of 2021.
+              This interactive page lets you select a colour,
+              and change the part of the flower to that colour when you click on it.
+              This was my first project using React! </p>
+          </article>
+          <article class="features-items">
+            <br />
+            <h3>Project: Guess the Word Game</h3>
+            <img src="./img/guess-word.png" alt="word-game" />
+            <br />
+            <a href="https://juliawilliams196.github.io/guess-the-word/" target="_blank">See the live app here</a>
+            <p class="features-items-description">Description:<br />
+              This app lets users play a word game similar to playing Hangman as kids.
+              You only have 8 guesses to get the word right!
+              I used an API to fetch more than 800 words for this game.
+              This is my mom's favourite game to play right now!
+            </p>
+          </article>
+          <article class="features-items">
+            <br />
+            <h3>Project: Unplugged Retreats Website</h3>
+            <img src="./img/unplugged.png" alt="website img" />
+            <br />
+            <a href="https://juliawilliams196.github.io/unplugged-project-2021/" target="_blank">See the live website
+              here</a>
+            <p class="features-items-description">Description:<br />
+              This website uses responsive design to create a beautiful UI.
+              Media queries and breakpoints were added to allow a seamless user
+              experience whether they are viewing on a mobile, tablet or desktop device.</p>
+          </article>
+          <br />
+          <article class="features-items">
+            <h3>Project: Name Tag Generator</h3>
+            <img src="./img/name-tag-generator.png" alt="name-tag" />
+            <br />
+            <a href="https://m1f2q.csb.app/" target="_blank">See the live app here</a>
+            <p class="features-items-description">Description:<br />
+              This is an interactive app where the user can create and delete their own personal name tags.
+              I added my own personal touch to this project after I was finished!</p>
+          </article>
+          <br />
+          <article class="features-items">
+            <h3>Project: Sticky Note App</h3>
+            <img src="./img/sticky-note-app.png" alt="sticky-note" />
+            <br />
+            <a href="https://lx81x.csb.app/" target="_blank">See the live app here</a>
+            <p class="features-items-description">Description:<br />
+              Similar to the Name Tag Generator project,
+              this app allows the user to create, delete, and search
+              through their own personal sticky notes.</p>
+          </article>
+        </section>
+        <br />
+      </div>
     </div>
   </main>
   <footer>
