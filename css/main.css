@@ -11,11 +11,11 @@ h3 {
   text-transform: uppercase;
   font-size: 20px;
 }
-.features-item-description{
+.features-item-description {
   text-transform: none;
   font-size: 16px;
 }
-article{
+article {
   text-transform: none;
   font-size: 16px;
 }
@@ -57,7 +57,7 @@ h1 {
   margin-bottom: auto;
   font-family: "Sacramento";
   font-size: 4.37rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #984a59;
 }
 .heading {
@@ -68,9 +68,9 @@ h1 {
   font-weight: bold;
   color: #984a59;
 }
-.heading:hover{
+.heading:hover {
   color: #dd5050;
-  cursor:default;
+  cursor: default;
 }
 .first-link:hover {
   color: #dd5050;
@@ -148,7 +148,7 @@ main a {
   font-size: 20px;
 }
 /****MY SKILLS AND PROJECTS SECTION****/
-#skills{
+#skills {
   padding: 30px 0;
 }
 .projects-intro {
@@ -156,7 +156,7 @@ main a {
   color: #984a59;
   font-weight: bold;
 }
-fieldset{
+fieldset {
   border: none;
 }
 input {
@@ -230,8 +230,10 @@ main img {
   align-items: center;
   flex-flow: row wrap;
 }
-
- /****FOOTER SECTION****/
+.features-items figure{
+  width: 100%;
+}
+/****FOOTER SECTION****/
 footer {
   background-color: #984a59;
 }
@@ -360,6 +362,9 @@ a:hover {
   .features-item-description {
     margin: 0 10px;
     width: 62%;
+  }
+  .features-items figure{
+    margin: 20px 0 40px 0;
   }
   .flex-container {
     display: flex;
