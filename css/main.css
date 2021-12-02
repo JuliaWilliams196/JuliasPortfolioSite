@@ -16,7 +16,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #edb97f;
+  background-color: lightskyblue;
   height: 745px;
   width: 100%;
   padding-top: 20px;
@@ -39,7 +39,7 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 20px;
-  color: #7a7979;
+  color: #686868;
 }
 h1 {
   display: block;
@@ -79,11 +79,13 @@ main img {
   width: 100%;
   vertical-align: middle;
 }
-
+.list-intro{
+  text-align: center;
+}
 /****MAIN SECTION****/
 /****h2 in this section is My Skills heading****/
 main {
-  background-color: #edb97f;
+  background-color: whitesmoke;
 }
 .second-container {
   text-align: center;
@@ -132,7 +134,78 @@ main a {
   font-family: "Shippori Antique", sans-serif;
   font-size: 20px;
 }
-/****FOOTER SECTION****/
+/****MY SKILLS AND PROJECTS SECTION****/
+input {
+  display: none;
+}
+section > div {
+  display: none;
+}
+label {
+  cursor: pointer;
+  font-family: "Source Sans Pro";
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 28px;
+  color: #686868;
+}
+li {
+  list-style: none;
+}
+#section-0:checked ~ #section-0 > div {
+  display: block;
+  visibility: visible;
+}
+#section-1:checked ~ #section-1 > div {
+  display: block;
+  visibility: visible;
+}
+#section-2:checked ~ #section-2 > div {
+  display: block;
+  visibility: visible;
+}
+.zero-label:hover {
+  color: #dd5050;
+}
+.first-label:hover {
+  color: #dd5050;
+}
+.second-label:hover {
+  color: #dd5050;
+}
+a:hover {
+  color: #984a59;
+}
+a {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #dd5050;
+  text-decoration: none;
+}
+time {
+  font-family: "Shippori Antique", sans-serif;
+  color: #984a59;
+  font-weight: bolder;
+  margin: auto;
+  width: 30%;
+  font-size: 20px;
+}
+h3 {
+  font-family: "Shippori Antique", sans-serif;
+  color: #984a59;
+}
+main img {
+  width: 80%;
+  vertical-align: middle;
+}
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+} /****FOOTER SECTION****/
 footer {
   background-color: #984a59;
 }
@@ -183,6 +256,10 @@ h4 {
 a:hover {
   text-decoration: none;
 }
+.change-color:hover {
+  color: #ffffff;
+}
+
 #contact-me {
   color: #edb97f;
   text-align: center;
@@ -207,79 +284,6 @@ a:hover {
 .linkedin {
   padding: 40px 0;
 }
-/****END****/
-/****MY SKILLS AND PROJECTS SECTION****/
-input {
-  display: none;
-}
-section > div {
-  display: none;
-}
-label {
-  cursor: pointer;
-  font-family: "Source Sans Pro";
-  font-weight: 800;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 28px;
-  color: #7a7979;
-}
-li {
-  list-style: none;
-}
-#section-0:checked ~ #section-0 > div {
-  display: block;
-  visibility: visible;
-}
-#section-1:checked ~ #section-1 > div {
-  display: block;
-  visibility: visible;
-}
-#section-2:checked ~ #section-2 > div {
-  display: block;
-  visibility: visible;
-}
-.zero-label:hover {
-  color: #dd5050;
-}
-.first-label:hover {
-  color: #984a59;
-}
-.second-label:hover {
-  color: #dd5050;
-}
-a:hover {
-  color: #984a59;
-}
-a {
-  font-family: "Amatic SC", sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  color: #dd5050;
-  text-decoration: none;
-}
-time {
-  font-family: "Shippori Antique", sans-serif;
-  color: #984a59;
-  font-weight: bolder;
-  margin: auto;
-  width: 30%;
-  font-size: 20px;
-}
-h3 {
-  font-family: "Shippori Antique", sans-serif;
-  color: #984a59;
-}
-main img {
-  width: 80%;
-  vertical-align: middle;
-}
-.features .features-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
 /***MEDIA QUERIES***/
 /*TABLET STYLES*/
 @media screen and (min-width: 768px) {
@@ -295,7 +299,7 @@ main img {
     text-align: left;
   }
   .projects-intro {
-    font-size: 1.5em;
+    font-size: 20px;
     margin: 0 100px;
   }
   .intro {
