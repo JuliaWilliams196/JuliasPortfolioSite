@@ -48,7 +48,7 @@ h1 {
   margin-bottom: auto;
   font-family: "Sacramento";
   font-size: 4.37rem;
-  font-weight: lighter;
+  font-weight: 600;
   color: #dd7450;
 }
 .heading {
@@ -135,6 +135,10 @@ main a {
   font-size: 20px;
 }
 /****MY SKILLS AND PROJECTS SECTION****/
+.projects-intro{
+  color: #984a59;
+  font-weight: bold;
+}
 input {
   display: none;
 }
@@ -228,7 +232,7 @@ p {
 }
 h4 {
   color: #edb97f;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Shippori Antique", sans-serif;
   font-size: 20px;
   font-weight: normal;
 }
@@ -236,9 +240,10 @@ h4 {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
-  font-family: "Amatic SC";
+  font-family: "Shippori Antique",sans-serif;
   color: #ffffff;
   font-size: 34px;
+  font-weight: 500;
   background: #edb97f;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
