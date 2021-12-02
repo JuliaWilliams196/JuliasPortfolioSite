@@ -9,6 +9,15 @@ div {
 h3 {
   font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
+  font-size: 20px;
+}
+.features-item-description{
+  text-transform: none;
+  font-size: 16px;
+}
+article{
+  text-transform: none;
+  font-size: 16px;
 }
 /****HEADER SECTION****/
 .top-container {
@@ -139,9 +148,16 @@ main a {
   font-size: 20px;
 }
 /****MY SKILLS AND PROJECTS SECTION****/
+#skills{
+  padding: 30px 0;
+}
 .projects-intro {
+  text-transform: none;
   color: #984a59;
   font-weight: bold;
+}
+fieldset{
+  border: none;
 }
 input {
   display: none;
@@ -213,7 +229,9 @@ main img {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-} /****FOOTER SECTION****/
+}
+
+ /****FOOTER SECTION****/
 footer {
   background-color: #984a59;
 }
@@ -316,7 +334,7 @@ a:hover {
     text-align: left;
   }
   #skills {
-    padding: 30px 0 0 0;
+    padding: 30px 0;
   }
   .top-container {
     padding: 20px 0 250px 0;
