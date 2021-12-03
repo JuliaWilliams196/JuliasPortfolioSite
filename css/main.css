@@ -230,7 +230,7 @@ main img {
   align-items: center;
   flex-flow: row wrap;
 }
-.features-items figure{
+.features-items figure {
   width: 100%;
 }
 /****FOOTER SECTION****/
@@ -363,7 +363,7 @@ a:hover {
     margin: 0 10px;
     width: 62%;
   }
-  .features-items figure{
+  .features-items figure {
     margin: 20px 0 40px 0;
   }
   .flex-container {
