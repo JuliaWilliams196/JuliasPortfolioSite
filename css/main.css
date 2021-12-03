@@ -2,6 +2,7 @@
 /****BODY****/
 body {
   text-align: center;
+  background-color: whitesmoke;
 }
 div {
   margin: 0;
@@ -107,6 +108,7 @@ main {
 }
 .third-container {
   background-color: whitesmoke;
+  clear: both;
 }
 .avatar {
   width: 250px;
@@ -345,7 +347,7 @@ a:hover {
     margin: 50px 0 200px 0;
   }
   section {
-    margin: 0 0 50px;
+    margin: 0;
   }
   .features {
     display: flex;
