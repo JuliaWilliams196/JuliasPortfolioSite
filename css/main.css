@@ -2,7 +2,6 @@
 /****BODY****/
 body {
   text-align: center;
-  background-color: whitesmoke;
 }
 div {
   margin: 0;
@@ -107,8 +106,7 @@ main {
   overflow: auto;
 }
 .third-container {
-  background-color: whitesmoke;
-  clear: both;
+  background-color: grey;
 }
 .avatar {
   width: 250px;
@@ -326,7 +324,7 @@ a:hover {
     padding-top: 150px;
   }
   .projects-container p {
-    padding: 0 30px;
+    padding: 0 20px;
     text-align: left;
   }
   .projects-intro {
@@ -347,7 +345,7 @@ a:hover {
     margin: 50px 0 200px 0;
   }
   section {
-    margin: 0;
+    margin: 0 0 50px;
   }
   .features {
     display: flex;
@@ -386,12 +384,6 @@ a:hover {
     flex-basis: 33%;
     width: 100%;
   }
-  .third-container figure {
-    display: inline-block;
-    width: 70%;
-    vertical-align: top;
-    overflow: auto;
-  }
 }
 /*LAPTOP/DESKTOP STYLES*/
 @media screen and (min-width: 900px) {
@@ -404,9 +396,11 @@ a:hover {
   .projects-intro {
     font-size: 1.5em;
   }
-  .third-container figure {
+  .third-container img {
     width: 70%;
-    vertical-align: top;
-    overflow: auto;
+    vertical-align: middle;
+  }
+  .features article {
+    flex-basis: 33%;
   }
 }
