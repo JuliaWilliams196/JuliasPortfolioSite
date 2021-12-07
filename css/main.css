@@ -2,6 +2,7 @@
 /****BODY****/
 body {
   text-align: center;
+  background-color: whitesmoke;
 }
 div {
   margin: 0;
@@ -98,12 +99,14 @@ main img {
 /****MAIN SECTION****/
 /****h2 in this section is My Skills heading****/
 main {
+  clear: both;
   background-color: whitesmoke;
 }
 .second-container {
   text-align: center;
   margin: 0px 0 380px 0;
   overflow: auto;
+  background-color: whitesmoke;
 }
 .third-container {
   background-color:whitesmoke;
