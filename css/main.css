@@ -20,6 +20,30 @@ article {
   text-transform: none;
   font-size: 16px;
 }
+/*Floating Back-To-Top Button*/
+.back-to-top {
+  background-color: powderblue;
+  color: #7a7979;
+  content: ▲;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+.back-to-top:hover,
+.back-to-top:focus,
+.back-to-top:visited {
+  color: #7a7979;
+}
+.back-to-top.show {
+  opacity: 1;
+}
 /****HEADER SECTION****/
 .top-container {
   background-image: url("../img/mountain-clouds.png");
@@ -69,10 +93,6 @@ h1 {
   font-weight: bold;
   color: #984a59;
 }
-.heading:hover {
-  color: #dd5050;
-  cursor: default;
-}
 .first-link:hover {
   color: #dd5050;
 }
@@ -109,7 +129,7 @@ main {
   background-color: whitesmoke;
 }
 .third-container {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
 }
 .avatar {
   width: 250px;
@@ -138,7 +158,6 @@ li {
   font-weight: bold;
   line-height: 3;
 }
-
 .about {
   color: #984a59;
 }
@@ -235,6 +254,9 @@ main img {
 }
 .features-items figure {
   width: 100%;
+}
+.underline{
+  text-decoration: dotted;
 }
 /****FOOTER SECTION****/
 footer {
@@ -406,4 +428,8 @@ a:hover {
   .features article {
     flex-basis: 33%;
   }
+}
+.features .features-items{
+justify-content: flex-start;
+flex-flow: column wrap;
 }
